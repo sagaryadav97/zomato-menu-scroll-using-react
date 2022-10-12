@@ -1,0 +1,63 @@
+.header {
+  height: 180px;
+  background-color: blueviolet;
+  width: 100%;
+  color: wheat;
+  font-size: 5rem;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.container {
+  width: 100%;
+}
+.menuContainer {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  /* height: 80vh; */
+  width: 100%;
+}
+/* .menuContainerLeft{}  */
+.menuContainerLeft {
+  background-color: blue;
+  
+}
+.menuContainerRight {
+  background-color: gold;
+}
+.menuContainerSearch {
+  background-color: aqua;
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 180px;
+}
+.menuContainerCategory {
+  background-color: chocolate;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 22px;
+  overflow: scroll;
+  position: sticky;
+  top: 200px;
+}
+
+.menuCardBox {
+  height: 400px;
+  background-color: blueviolet;
+}
+.menuTitle {
+    height: 100px;
+  padding-top: 20px;
+    background-color: coral;
+  }
+  .footer{
+    height: 500px;
+    width: 100vw;
+    background-color: cornflowerblue;
+  
+  }

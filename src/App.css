@@ -4,7 +4,7 @@
 .header {
   height: 180px;
   background-color: blueviolet;
-  width: 100vw;
+  width: 100%;
   color: wheat;
   font-size: 5rem;
   position: sticky;
@@ -27,6 +27,7 @@
   position: sticky;
   top: 200px;
   height: 800px;
+  overflow: scroll;
 }
 .rightitemscontainer {
   background-color: cadetblue;
